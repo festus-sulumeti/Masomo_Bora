@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Detail from './Components/Detail'; // Import the LoginPage component
+import Detail from './Components/Detail'; 
 
 
 function App() {
   return (
     <div className="App">
 
-      {/* Include the LoginPage component */}
+      
       <Detail />
     </div>
   );
