@@ -1,4 +1,7 @@
+// Detail.js
+
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Style/Detail.css';
 
 const Detail = () => {
@@ -8,8 +11,8 @@ const Detail = () => {
         <h2>Welcome to Masomo Bora</h2>
         <p>Embark on a transformative learning experience with Masomo Bora!</p>
         <div className="actions">
-          <a href="#" className="link login-link">Login</a>
-          <a href="#" className="link signup-link">Create account</a>
+          <Link to="#" className="link login-link">Login</Link>
+          <Link to="/Signup" className="link signup-link">Create account</Link>
         </div>
         <br />
        
