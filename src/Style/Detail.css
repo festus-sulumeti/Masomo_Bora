@@ -13,8 +13,8 @@ body {
   .wrapper {
     background-color: white;
     width: 330px;
-    height: 400px; /* Adjusted height to accommodate additional content */
-    margin: 170px auto; /* Adjusted margin for better positioning */
+    height: 400px; 
+    margin: 150px auto;
     border-radius: 10px;
     text-align: center;
     padding: 40px;

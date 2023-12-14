@@ -1,5 +1,6 @@
 // Signup.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Style/Signup.css';
 
 const Signup = () => {
@@ -8,7 +9,7 @@ const Signup = () => {
       <div className="container">
         <div className="form-box">
           <h1 id="title">Sign Up</h1>
-          <p>Unlock the door to a world of knowledge with Masomo Bora! Begin your child's enriching learning journey today by signing up. </p>
+          <p className='Sul'>Unlock the door to a world of elimu bora with Masomo Bora! Begin your child's enriching learning journey today by signing up. </p>
           <form action="">
             <div className="input-group">
               <div className="input-field" id="nameField">
@@ -28,7 +29,7 @@ const Signup = () => {
             </div>
             <div className="btn-field">
               <button type="button" id="SignupBtn">Sign Up</button>
-              <p>Already have an account? <a href="#">Log in</a></p>
+              <p className='Sul'>Already have an account? <Link to="/Signin" >Login</Link></p>
             </div>
           </form>
         </div>
