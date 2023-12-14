@@ -1,9 +1,10 @@
-// Dashboard.js
+// Home.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Style/Home/Home.css';
+import '../../Style/Home/Home.css'; 
 
-const Dashboard = () => {
+
+const Home = () => {
   // Simulated data, replace it with actual data fetching logic
   const childPerformanceData = {
     subjects: [
@@ -46,4 +47,4 @@ const Dashboard = () => {
   );
 }
 
-export default Dashboard;
+export default Home;
