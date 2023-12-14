@@ -1,5 +1,4 @@
 // Signup.js
-
 import React from 'react';
 import '../Style/Signup.css';
 
@@ -26,10 +25,10 @@ const Signup = () => {
                 <i className="uil uil-padlock"></i>
                 <input type="password" placeholder="user password" />
               </div>
-              
             </div>
             <div className="btn-field">
-              <button type="button" id="SigninBtn">Sign In</button>
+              <button type="button" id="SignupBtn">Sign Up</button>
+              <p>Already have an account? <a href="#">Log in</a></p>
             </div>
           </form>
         </div>
