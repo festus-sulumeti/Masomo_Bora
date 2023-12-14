@@ -3,12 +3,13 @@
 import React from 'react';
 import '../Style/Signup.css';
 
-const SignupPage = () => {
+const Signup = () => {
   return (
     <div className="feature-item">
       <div className="container">
         <div className="form-box">
           <h1 id="title">Sign Up</h1>
+          <p>Unlock the door to a world of knowledge with Masomo Bora! Begin your child's enriching learning journey today by signing up. </p>
           <form action="">
             <div className="input-group">
               <div className="input-field" id="nameField">
@@ -25,10 +26,9 @@ const SignupPage = () => {
                 <i className="uil uil-padlock"></i>
                 <input type="password" placeholder="user password" />
               </div>
-              <p>Lost password <a href="">Click Here</a></p>
+              
             </div>
             <div className="btn-field">
-              <button type="button" id="signupBtn">Sign Up</button>
               <button type="button" id="SigninBtn">Sign In</button>
             </div>
           </form>
@@ -38,4 +38,4 @@ const SignupPage = () => {
   );
 }
 
-export default SignupPage;
+export default Signup;
