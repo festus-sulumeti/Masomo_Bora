@@ -4,12 +4,22 @@ import { Link } from 'react-router-dom';
 import '../Style/Signup.css';
 
 const Signup = () => {
+  // Assume you have a function to handle signup logic
+  const handleSignup = () => {
+    // Perform signup logic here
+    // Redirect the user to the Dashboard after successful signup
+    // You can use react-router's useHistory hook for this
+    // history.push('/dashboard');
+  };
+
   return (
     <div className="feature-item">
       <div className="container">
         <div className="form-box">
           <h1 id="title">Sign Up</h1>
-          <p className='Sul'>Unlock the door to a world of elimu bora with Masomo Bora! Begin your child's enriching learning journey today by signing up. </p>
+          <p className='Sul'>
+            Unlock the door to a world of elimu bora with Masomo Bora! Begin your child's enriching learning journey today by signing up.
+          </p>
           <form action="">
             <div className="input-group">
               <div className="input-field" id="nameField">
@@ -28,8 +38,13 @@ const Signup = () => {
               </div>
             </div>
             <div className="btn-field">
-              <button type="button" id="SignupBtn">Sign Up</button>
-              <p className='Sul'>Already have an account? <Link to="/Signin" >Login</Link></p>
+              {/* Use Link to navigate to the Dashboard */}
+              <Link to="/Home">
+                <button type="button" id="SignupBtn" onClick={handleSignup}>
+                  Sign Up
+                </button>
+              </Link>
+              <p className='Sul'>Already have an account? <Link to="/signin">Login</Link></p>
             </div>
           </form>
         </div>
