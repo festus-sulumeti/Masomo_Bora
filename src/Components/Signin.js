@@ -10,7 +10,7 @@ const Signin = () => {
       <div className="container">
         <div className="form-box">
           <h1 id="title">Log In</h1>
-          <p className='Sul'>Welcome Masomo Bora! Log in the learning journey.</p>
+          <p className='Sul'>Welcome to Masomo Bora! Log in the learning journey.</p>
           <form action="">
             <div className="input-group">
               <div className="input-field" id="nameField">
