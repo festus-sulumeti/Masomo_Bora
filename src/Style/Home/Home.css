@@ -1,4 +1,5 @@
 /* Home.css */
+
 .containering {
   display: flex;
   max-width: 1200px;
@@ -11,6 +12,7 @@
   background: #f0f0f0;
   padding: 20px;
   margin: auto 0;
+  margin-right: 20px; /* Add margin to create space between sidebar and dashboard */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: width 0.3s ease-in-out; /* Add a transition for smooth width adjustment */
 }
@@ -39,22 +41,15 @@
   color: #0066cc;
 }
 
-.main-content {
+.dashboard-box {
   flex: 1;
   padding: 40px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: margin-left 0.3s ease-in-out; 
-  max-width: 1200px;
-}
-
-.dashboard-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px 20px;
-  max-width: 1200px;
+  transition: margin-left 0.3s ease-in-out;
+  max-width: 80%; /* Modify the width to 80% */
+  margin-left: 20px; /* Add margin to create space between sidebar and dashboard */
 }
 
 .dashboard-box h1 {
@@ -118,7 +113,7 @@
 }
 
 /* Adjust the margin-left for the main content when the sidebar is collapsed */
-.containering.collapsed .main-content {
+.containering.collapsed .dashboard-box {
   margin-left: 0;
 }
 
