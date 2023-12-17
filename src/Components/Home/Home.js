@@ -20,11 +20,11 @@ const Home = () => {
       <div className="containering">
         <div className="sidebar">
           <ul>
+            <li><Link to="/Home/General">General</Link></li>
             <li><Link to="/Home/ManageTeam">Manage Team</Link></li>
             <li><Link to="/Home/ContactsInformation">Contacts Information</Link></li>
             <li><Link to="/Home/InvoicesBalances">Invoices Balances</Link></li>
             <li><Link to="/Home/StudentForm">StudentForm</Link></li>
-            <li><Link to="/Home/Calendar">Calendar</Link></li>
             <li><Link to="/Home/Logout">Logout</Link></li>
           </ul>
         </div>
