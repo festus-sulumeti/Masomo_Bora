@@ -12,7 +12,7 @@ const Detail = () => {
         <p >Embark on a transformative learning experience with Masomo Bora!</p>
         <div className="actions">
           <Link to="/Signin" className="link login-link">Login</Link>
-          <Link to="/Signup" className="link signup-link">Create account</Link>
+          {/* <Link to="/Signup" className="link signup-link">Create account</Link> */}
         </div>
         <br />
        

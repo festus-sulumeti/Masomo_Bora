@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Detail from './Components/Detail';
-import Signup from './Components/Signup';
+// import Signup from './Components/Signup';
 import Signin from './Components/Signin';
 import Home from './Components/Home/Home';
 import ManageTeam from './Components/Home/ManageTeam';
@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Detail />} />
-          <Route path="/Signup" element={<Signup />} />
+          {/* <Route path="/Signup" element={<Signup />} /> */}
           <Route path="/Signin" element={<Signin />} />
           <Route path="/Home" element={<Home />}>
             <Route path="General" element={<General />} />
