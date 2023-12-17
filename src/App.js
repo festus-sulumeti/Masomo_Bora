@@ -9,7 +9,7 @@ import Home from './Components/Home/Home';
 import ManageTeam from './Components/Home/ManageTeam';
 import ContactsInformation from './Components/Home/ContactsInformation';
 import InvoicesBalances from './Components/Home/InvoicesBalances';
-import ProfileForm from './Components/Home/ProfileForm';
+import StudentForm from './Components/Home/StudentForm';
 import Calendar from './Components/Home/Calendar';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
             <Route path="ManageTeam" element={<ManageTeam />} />
             <Route path="ContactsInformation" element={<ContactsInformation />} />
             <Route path="InvoicesBalances" element={<InvoicesBalances />} />
-            <Route path="ProfileForm" element={<ProfileForm />} />
+            <Route path="StudentForm" element={<StudentForm />} />
             <Route path="Calendar" element={<Calendar />} />
           </Route>
         </Routes>

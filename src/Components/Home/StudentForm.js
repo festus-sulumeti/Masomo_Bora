@@ -1,8 +1,8 @@
 // ProfileForm.js
 import React, { useState } from 'react';
-import '../../Style/Home/ProfileForm.css';
+import '../../Style/Home/StudentForm.css';
 
-const ProfileForm = () => {
+const StudentForm = () => {
   // Example state for form fields
   const [formData, setFormData] = useState({
     firstName: '',
@@ -78,4 +78,4 @@ const ProfileForm = () => {
   );
 };
 
-export default ProfileForm;
+export default StudentForm;
