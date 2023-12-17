@@ -4,16 +4,6 @@ import { Link, Outlet } from 'react-router-dom'; // Import Outlet
 import '../../Style/Home/Home.css';
 
 const Home = () => {
-  // Simulated data, replace it with actual data fetching logic
-  const childPerformanceData = {
-    subjects: [
-      { name: 'Mathematics', grade: 'A' },
-      { name: 'English', grade: 'B' },
-      { name: 'Kiswahili', grade: 'A-' },
-    ],
-    attendance: '95%',
-    behavior: 'Excellent',
-  };
 
   return (
     <div className="feature-item">
@@ -33,19 +23,8 @@ const Home = () => {
             <h1 id="title">Admin dashboard</h1>
             <div className="performance-summary">
               <h2>s Performance Summary</h2>
-              <ul>
-                {childPerformanceData.subjects.map((subject, index) => (
-                  <li key={index}>
-                    <strong>{subject.name}:</strong> {subject.grade}
-                  </li>
-                ))}
-              </ul>
+             
             </div>
-            <div className="attendance-behavior">
-              <p><strong>Attendance:</strong> {childPerformanceData.attendance}</p>
-              <p><strong>Behavior:</strong> {childPerformanceData.behavior}</p>
-            </div>
-            <Link to="/logout">Logout</Link>
 
             {/* Outlet to render nested routes */}
             <Outlet />
